@@ -29,16 +29,6 @@ nav > a {
     text-align: center;
 }
 
-#link {
-    width: 500px;
-}
-
-a {
-    font-size: 1.1em;
-    margin-right: 25px;
-    color: white;
-    text-decoration: none;
-}
 
 #blackorwhite { 
     cursor: pointer;
