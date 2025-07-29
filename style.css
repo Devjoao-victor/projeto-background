@@ -66,6 +66,9 @@ aside > h1 {
     font-size: 2.8em;
 }
 
+#textoprincipal {
+    color: #172853ff;
+}
 
 #explore {
     cursor: pointer;
