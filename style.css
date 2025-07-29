@@ -67,6 +67,7 @@ a {
 }
 
 aside {
+    text-align: left;
     margin-left: 100px;
     width: 600px;
 }
@@ -77,6 +78,7 @@ aside > h1 {
 
 
 #explore {
+    cursor: pointer;
     font-size: 1.2em;
     margin-top: 30px;
     color: white;
@@ -85,7 +87,10 @@ aside > h1 {
     padding: 10px;
     border-radius: 6px;
 
+}
 
+#explore:hover {
+    background-color: #0035af;
 }
 
 #setaexplore {
@@ -97,13 +102,22 @@ strong {
 }
 
 #painelcores {
-    display: none;
+    opacity: 0;
+    pointer-events: none; /* impede clique quando invisível */
+    transition: opacity 0.4s ease;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
     margin-right: 30px;
     padding: 10px;
     float: right;
     text-indent: 10px;
     width: 250px;
+}
+
+
+
+#painelcores.aberto {
+    opacity: 1;
+    pointer-events: auto; /* permite clique quando visível */
 }
 
 #painelcores > p {
@@ -146,4 +160,58 @@ strong {
     width: 50px;
     padding: 15px;
     border-radius: 50%;
+}
+
+.circulo-selecionado {
+  box-shadow: 0 0 0 4px white, 0 0 0 6px #3F72EC;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  nav > h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+
+  #link {
+    display: none;
+  }
+
+  #blackorwhite {
+    margin-left: 16px;
+  }
+
+  aside {
+    text-align: left;
+    margin-left: 3%;
+    margin-right: 5%;
+    width: 90%;
+  }
+
+  #explore {
+    width: 100%;
+    text-align: center;
+  }
+
+  #painelcores {
+    width: 44.8%;
+    float: none;
+    margin: 2px auto 0 auto;
+  }
+
+  #cor1, #cor2, #cor3, #cor4 {
+    width: 45px;
+    padding: 12px;
+  }
+
+  #vazio {
+    height: 90px;
+  }   
+
+
 }

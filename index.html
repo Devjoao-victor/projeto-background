@@ -26,22 +26,22 @@
                       <i class="material-icons" id="lua" onclick="darkmode()" >dark_mode</i>
                       <i class="fa-solid fa-sun" id="sol" onclick="lightmode()" style="display: none;"></i>
                 </div>
-                <div onclick="menu()"  id="colors" ><i class="material-icons">palette</i> <i class="material-icons" id="arrownav"  onclick="menu()">arrow_drop_down</i></div>
+                <div onclick="menu()"  id="colors" ><i class="material-icons" >palette</i> <i class="material-icons" id="arrownav" >arrow_drop_down</i></div>
                 </div>
     </nav>
     <main>
         <div id="vazio">
             <div id="painelcores" >
-                <p >Color Switcher</p>
-                <input type="button" value="" id="cor1">
-                <input type="button" value="" id="cor2">
-                <input type="button" value="" id="cor3">
-                <input type="button" value="" id="cor4">
+                <p id="switch">Color Switcher</p>
+                <input type="button" value="" id="cor1" onclick="cor1()">
+                <input type="button" value="" id="cor2" onclick="cor2()">
+                <input type="button" value="" id="cor3" onclick="cor3()">
+                <input type="button" value="" id="cor4" onclick="cor4()">
             </div>
         </div>
         <aside id="texto">
             <h1>Customize Your Website With a <strong id="strong">Beautiful Colours...</strong></h1>
-            <p >Welcome to a new way of making your website truly yours!
+            <p id="textoprincipal">Welcome to a new way of making your website truly yours!
                With just a few clicks, you can change the background to match your mood, style, or brand. Whether you love calm pastels, bold neons, or dark themes — the choice is in your hands.
                Make your browsing experience more personal, more vibrant, more you.
                Try it out and see how a splash of color can transform everything!</p>
