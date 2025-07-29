@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav, #fundo, #texto, #explore, #blackorwhite, #colors, strong  {
+  transition: background-color 0.5s ease, color 0.5s ease, box-shadow 0.5s ease;
+}
+
+
+nav {
+    display: flex;
+    padding: 10px;
+    color: white;
+    background-color: #3F72EC;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > h1 {
+    margin-left: 15px;
+    display: inline-block;
+    font-size: 2.5em;
+}
+
+
+nav > a {
+    text-align: center;
+}
+
+#link {
+    width: 500px;
+}
+
+a {
+    font-size: 1.1em;
+    margin-right: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+#blackorwhite { 
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 4px;
+    display: inline-block;
+    background-color: #0A3CB9;
+}
+
+#colors {
+    cursor: pointer;
+    margin-right: 100px;
+    padding: 7px;
+    border-radius: 4px;
+    display: inline-block;
+    background-color: #0A3CB9;
+}
+
+#arrownav {
+  display: inline-block; 
+  transition: 0.3s ease;
+}
+
+#vazio {
+    height: 190px;
+}
+
+aside {
+    margin-left: 100px;
+    width: 600px;
+}
+
+aside > h1 {
+    font-size: 2.8em;
+}
+
+
+#explore {
+    font-size: 1.2em;
+    margin-top: 30px;
+    color: white;
+    background-color: #3E71E9;
+    width: 130px;
+    padding: 10px;
+    border-radius: 6px;
+
+
+}
+
+#setaexplore {
+    padding: 5px;
+}
+
+strong {
+    color: #3E71E8 ;
+}
+
+#painelcores {
+    display: none;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+    margin-right: 30px;
+    padding: 10px;
+    float: right;
+    text-indent: 10px;
+    width: 250px;
+}
+
+#painelcores > p {
+
+    color: #3E71E8;
+    margin-bottom: 10px;
+}
+
+#cor1 {
+    margin-right: 10px;
+    border: none;
+    background-color: #4070EB;
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+#cor2 {
+    margin-right: 10px;
+    border: navajowhite;
+    background-color: #F7A027;
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+#cor3 {
+    margin-right: 10px;
+    border: navajowhite;
+    background-color: #8D44A7;
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+#cor4 {
+    
+    border: navajowhite;
+    background-color: #399946;
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+}

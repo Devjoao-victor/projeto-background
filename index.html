@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+</head>
+<body id="fundo">
+    <nav id="nav">
+        <h1>Color Your Way</h1>
+        <div id="link">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Skills</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+        <div id="trocadecor">
+                <div id="blackorwhite">
+                      <i class="material-icons" id="lua" onclick="darkmode()" >dark_mode</i>
+                      <i class="fa-solid fa-sun" id="sol" onclick="lightmode()" style="display: none;"></i>
+                </div>
+                <div onclick="menu()"  id="colors" ><i class="material-icons">palette</i> <i class="material-icons" id="arrownav"  onclick="menu()">arrow_drop_down</i></div>
+                </div>
+    </nav>
+    <main>
+        <div id="vazio">
+            <div id="painelcores" >
+                <p >Color Switcher</p>
+                <input type="button" value="" id="cor1">
+                <input type="button" value="" id="cor2">
+                <input type="button" value="" id="cor3">
+                <input type="button" value="" id="cor4">
+            </div>
+        </div>
+        <aside id="texto">
+            <h1>Customize Your Website With a <strong id="strong">Beautiful Colours...</strong></h1>
+            <p >Welcome to a new way of making your website truly yours!
+               With just a few clicks, you can change the background to match your mood, style, or brand. Whether you love calm pastels, bold neons, or dark themes — the choice is in your hands.
+               Make your browsing experience more personal, more vibrant, more you.
+               Try it out and see how a splash of color can transform everything!</p>
+           <div id="explore">Explore Me <i class="fa-solid fa-caret-right" id="setaexplore"></i> </div>
+        </aside>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
